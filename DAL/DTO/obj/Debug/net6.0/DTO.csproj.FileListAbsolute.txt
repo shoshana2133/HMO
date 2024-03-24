@@ -1,0 +1,15 @@
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\bin\Debug\net6.0\DTO.deps.json
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\bin\Debug\net6.0\DTO.dll
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\bin\Debug\net6.0\DTO.pdb
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\bin\Debug\net6.0\DAL.dll
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\bin\Debug\net6.0\DAL.pdb
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\obj\Debug\net6.0\DTO.csproj.CopyComplete
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\obj\Debug\net6.0\DTO.dll
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\obj\Debug\net6.0\refint\DTO.dll
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\obj\Debug\net6.0\DTO.pdb
+D:\פרוייקט קופת חולים\HMO\DAL\DTO\obj\Debug\net6.0\ref\DTO.dll

@@ -14,5 +14,6 @@ namespace DAL.Models.Interfaces
         bool DeleteMemberDB(int id_mem);
         int AddMemberDB (MemberHmo member);
         bool UpdateMemberDB (MemberHmo member);
+        public MemberHmo GetById(int id);
     }
 }

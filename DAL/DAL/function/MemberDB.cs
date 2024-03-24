@@ -38,9 +38,18 @@ namespace DAL.Models.function
             return db.MemberHmos.ToList();
         }
 
+        public MemberHmo GetById(int id)
+        {
+            MemberHmo m = GetAllMemberDB().FirstOrDefault(x => x.MbrCode == id);
+            if (m == null)
+                return null;
+            return m;
+        }
+        
+
         public bool UpdateMemberDB(MemberHmo member)
         {
-            MemberHmo memberToEdit = db.MemberHmos.FirstOrDefault(x => x.MbrCode == id_mem);
+            MemberHmo memberToEdit = db.MemberHmos.FirstOrDefault(x => x.MbrCode == member.MbrCode);
             if (memberToEdit == null)
             {
                 return false;
