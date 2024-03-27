@@ -25,6 +25,8 @@ namespace DTO
             CreateMap<VaccinatedMbr, VaccinatedMbrDto>()
                 .ForMember(dest => dest.VcManufacturer, opt => opt.MapFrom(src => src.VcCodeNavigation.VcManufacturer));
             CreateMap<VaccinatedMbrDto, VaccinatedMbr>();
+            CreateMap<Vaccination, VaccinationDTO>();
+            CreateMap<VaccinationDTO, Vaccination>();
         }
     }
 }

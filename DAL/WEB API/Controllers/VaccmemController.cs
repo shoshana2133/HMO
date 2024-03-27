@@ -10,9 +10,11 @@ namespace WEB_API.Controllers
     public class VaccmemController : ControllerBase
     {
         IVaccMbrBll vcb;
+  
         public VaccmemController(IVaccMbrBll v)
         {
             vcb= v;
+         
         }
         [HttpGet]
         [Route("GetAllVaccForMem/{id}")]
@@ -27,5 +29,6 @@ namespace WEB_API.Controllers
         {
             return Ok(vcb.GetAllVaccintedMbrBll());
         }
+    
     }
 }

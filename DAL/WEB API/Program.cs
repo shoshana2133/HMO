@@ -32,10 +32,11 @@ builder.Services.AddDbContext<HmoDbContext>(x => x.UseSqlServer("Server=.\\SQLEX
 //הזרקת תלויות של ממשקים ומחלקות 
 builder.Services.AddScoped(typeof(Imembers), typeof(MemberDB));
 builder.Services.AddScoped(typeof(IvaccintedMbrDB), typeof(VaccintedMbrDB));
+builder.Services.AddScoped(typeof(IVaccinationDB), typeof(VaccinationDB));
 
 builder.Services.AddScoped(typeof(ImemberBLL), typeof(MemberBLL));
 builder.Services.AddScoped(typeof(IVaccMbrBll), typeof(VaccinatedMbrBll));
-
+builder.Services.AddScoped(typeof(IVaccinationBll), typeof(VaccinationBll));
 
 var app = builder.Build();
 
