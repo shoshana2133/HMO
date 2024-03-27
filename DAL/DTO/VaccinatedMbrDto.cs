@@ -10,9 +10,11 @@ namespace DTO
     {
         public int VmCode { get; set; }
 
-        public int VmMbrCode { get; set; }
+        public int MbrCode { get; set; }
 
-        public int VmVcCode { get; set; }
+        public string VcManufacturer { get; set; } = null!;
+
+        public int VcCode { get; set; }
 
         public DateTime VmDate { get; set; }
     }

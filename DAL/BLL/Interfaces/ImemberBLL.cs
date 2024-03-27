@@ -14,7 +14,7 @@ namespace BLL.Interfaces
         bool DeleteMemberBll(int id_mem);
         int AddMemberBll(MemberDTO member);
         bool UpdateMemberBll(MemberDTO member);
-        public List<VaccinatedMbrDto> GetAllVaccinatedMbr(int id);
+        //public List<VaccinatedMbrDto> GetAllVaccinatedMbr(int id);
 
     }
 }

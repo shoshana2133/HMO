@@ -25,7 +25,7 @@ public partial class HmoDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=HMO_DB;Trusted_Connection=True; TrustServerCertificate=true");
+        => optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=HMO_DB;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -42,10 +42,10 @@ public partial class HmoDbContext : DbContext
             entity.Property(e => e.CpDateRecovery)
                 .HasColumnType("date")
                 .HasColumnName("cpDateRecovery");
-            entity.Property(e => e.CpMbrCode).HasColumnName("cpMbrCode");
+            entity.Property(e => e.MbrCode).HasColumnName("mbrCode");
 
-            entity.HasOne(d => d.CpMbrCodeNavigation).WithMany(p => p.CoronaPatients)
-                .HasForeignKey(d => d.CpMbrCode)
+            entity.HasOne(d => d.MbrCodeNavigation).WithMany(p => p.CoronaPatients)
+                .HasForeignKey(d => d.MbrCode)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Corona_Patients_memberHMO");
         });
@@ -96,19 +96,19 @@ public partial class HmoDbContext : DbContext
             entity.ToTable("Vaccinated_Mbr");
 
             entity.Property(e => e.VmCode).HasColumnName("vmCode");
+            entity.Property(e => e.MbrCode).HasColumnName("mbrCode");
+            entity.Property(e => e.VcCode).HasColumnName("vcCode");
             entity.Property(e => e.VmDate)
                 .HasColumnType("date")
                 .HasColumnName("vmDate");
-            entity.Property(e => e.VmMbrCode).HasColumnName("vmMbrCode");
-            entity.Property(e => e.VmVcCode).HasColumnName("vmVcCode");
 
-            entity.HasOne(d => d.VmMbrCodeNavigation).WithMany(p => p.VaccinatedMbrs)
-                .HasForeignKey(d => d.VmMbrCode)
+            entity.HasOne(d => d.MbrCodeNavigation).WithMany(p => p.VaccinatedMbrs)
+                .HasForeignKey(d => d.MbrCode)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Vaccinated_Mbr_memberHMO");
 
-            entity.HasOne(d => d.VmVcCodeNavigation).WithMany(p => p.VaccinatedMbrs)
-                .HasForeignKey(d => d.VmVcCode)
+            entity.HasOne(d => d.VcCodeNavigation).WithMany(p => p.VaccinatedMbrs)
+                .HasForeignKey(d => d.VcCode)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Vaccinated_Mbr_Vaccinations");
         });

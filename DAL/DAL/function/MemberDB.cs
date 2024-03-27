@@ -22,7 +22,7 @@ namespace DAL.Models.function
         }
 
         public bool DeleteMemberDB(int id_mem)
-        {
+        {//צריך למחוק את כל החיסונים והמחלות של החבר 
             MemberHmo memberToDel = db.MemberHmos.FirstOrDefault(x => x.MbrCode == id_mem);
             if (memberToDel == null)
             {
@@ -63,7 +63,7 @@ namespace DAL.Models.function
             memberToEdit.MbrTel = member.MbrTel;
             memberToEdit.MbrBirthDate = member.MbrBirthDate;
             memberToEdit.MbrPatient = member.MbrPatient;
-            memberToEdit.VaccinatedMbrs = member.VaccinatedMbrs;
+            memberToEdit.MbrVaccinted = member.MbrVaccinted;
             db.SaveChanges();
             return true;
         }

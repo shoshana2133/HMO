@@ -7,11 +7,11 @@ public partial class CoronaPatient
 {
     public int CpCode { get; set; }
 
-    public int CpMbrCode { get; set; }
+    public int MbrCode { get; set; }
 
     public DateTime CpDatePositive { get; set; }
 
     public DateTime? CpDateRecovery { get; set; }
 
-    public virtual MemberHmo CpMbrCodeNavigation { get; set; } = null!;
+    public virtual MemberHmo MbrCodeNavigation { get; set; } = null!;
 }

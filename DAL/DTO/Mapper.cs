@@ -10,13 +10,20 @@ namespace DTO
 {
     public class Mapper:Profile
     {
+        //public Mapper()
+        //{
+        //    CreateMap<MemberHmo, MemberDTO>();
+        //    CreateMap<MemberDTO, MemberHmo>();
+        //    CreateMap<VaccinatedMbr, VaccinatedMbrDto>()
+        //       .ForMember(x => x.VcManufacturer, src => src.MapFrom(y => y.VcCodeNavigation.VcManufacturer));
+        //    CreateMap<VaccinatedMbrDto, VaccinatedMbr>();
+        //}
         public Mapper()
         {
             CreateMap<MemberHmo, MemberDTO>();
             CreateMap<MemberDTO, MemberHmo>();
-            CreateMap<VaccinatedMbr, VaccinatedMbrDto>();
-              //  .ForMember(x => x.VmMbrCode, src => src.MapFrom(y => y.VmMbrCodeNavigation.MbrCode));
-
+            CreateMap<VaccinatedMbr, VaccinatedMbrDto>()
+                .ForMember(dest => dest.VcManufacturer, opt => opt.MapFrom(src => src.VcCodeNavigation.VcManufacturer));
             CreateMap<VaccinatedMbrDto, VaccinatedMbr>();
         }
     }

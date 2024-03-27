@@ -1,5 +1,7 @@
 using BLL.function;
 using BLL.Interfaces;
+using DAL.function;
+using DAL.Interfaces;
 using DAL.Models;
 using DAL.Models.function;
 using DAL.Models.Interfaces;
@@ -29,9 +31,11 @@ builder.Services.AddDbContext<HmoDbContext>(x => x.UseSqlServer("Server=.\\SQLEX
 
 //הזרקת תלויות של ממשקים ומחלקות 
 builder.Services.AddScoped(typeof(Imembers), typeof(MemberDB));
-
+builder.Services.AddScoped(typeof(IvaccintedMbrDB), typeof(VaccintedMbrDB));
 
 builder.Services.AddScoped(typeof(ImemberBLL), typeof(MemberBLL));
+builder.Services.AddScoped(typeof(IVaccMbrBll), typeof(VaccinatedMbrBll));
+
 
 var app = builder.Build();
 

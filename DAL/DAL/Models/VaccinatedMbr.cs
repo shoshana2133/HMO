@@ -7,13 +7,13 @@ public partial class VaccinatedMbr
 {
     public int VmCode { get; set; }
 
-    public int VmMbrCode { get; set; }
+    public int MbrCode { get; set; }
 
-    public int VmVcCode { get; set; }
+    public int VcCode { get; set; }
 
     public DateTime VmDate { get; set; }
 
-    public virtual MemberHmo VmMbrCodeNavigation { get; set; } = null!;
+    public virtual MemberHmo MbrCodeNavigation { get; set; } = null!;
 
-    public virtual Vaccination VmVcCodeNavigation { get; set; } = null!;
+    public virtual Vaccination VcCodeNavigation { get; set; } = null!;
 }

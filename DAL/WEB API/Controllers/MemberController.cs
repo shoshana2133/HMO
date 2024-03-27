@@ -43,11 +43,6 @@ namespace WEB_API.Controllers
         {
             return Ok(member.DeleteMemberBll(id));
         }
-        [HttpGet]
-        [Route("GetAllVaccForMem/{id}")]
-        public ActionResult<List<VaccinatedMbrDto>> GetAllVaccForMem(int id)
-        {
-            return Ok(member.GetAllVaccinatedMbr(id));
-        }
+        
     }
 }
