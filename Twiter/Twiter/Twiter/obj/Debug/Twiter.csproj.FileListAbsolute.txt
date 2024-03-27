@@ -1,0 +1,8 @@
+D:\פרוייקט קופת חולים\HMO\Twiter\Twiter\Twiter\bin\Debug\Twiter.exe.config
+D:\פרוייקט קופת חולים\HMO\Twiter\Twiter\Twiter\bin\Debug\Twiter.exe
+D:\פרוייקט קופת חולים\HMO\Twiter\Twiter\Twiter\bin\Debug\Twiter.pdb
+D:\פרוייקט קופת חולים\HMO\Twiter\Twiter\Twiter\obj\Debug\Twiter.csproj.AssemblyReference.cache
+D:\פרוייקט קופת חולים\HMO\Twiter\Twiter\Twiter\obj\Debug\Twiter.csproj.SuggestedBindingRedirects.cache
+D:\פרוייקט קופת חולים\HMO\Twiter\Twiter\Twiter\obj\Debug\Twiter.csproj.CoreCompileInputs.cache
+D:\פרוייקט קופת חולים\HMO\Twiter\Twiter\Twiter\obj\Debug\Twiter.exe
+D:\פרוייקט קופת חולים\HMO\Twiter\Twiter\Twiter\obj\Debug\Twiter.pdb
