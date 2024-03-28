@@ -1,0 +1,176 @@
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\appsettings.Development.json
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\appsettings.json
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\WEB API.exe
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\WEB API.deps.json
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\WEB API.runtimeconfig.json
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\WEB API.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\WEB API.pdb
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\AutoMapper.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Azure.Core.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Azure.Identity.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\System.Memory.Data.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\BLL.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\DAL.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\DTO.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\BLL.pdb
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\DAL.pdb
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\bin\Debug\net6.0\DTO.pdb
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\WEB API.csproj.AssemblyReference.cache
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\WEB API.GeneratedMSBuildEditorConfig.editorconfig
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\WEB API.AssemblyInfoInputs.cache
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\WEB API.AssemblyInfo.cs
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\WEB API.csproj.CoreCompileInputs.cache
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\WEB API.MvcApplicationPartsAssemblyInfo.cs
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\WEB API.MvcApplicationPartsAssemblyInfo.cache
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\staticwebassets\msbuild.WEB API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\staticwebassets\msbuild.build.WEB API.props
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WEB API.props
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WEB API.props
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\staticwebassets.pack.json
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\staticwebassets.build.json
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\staticwebassets.development.json
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\scopedcss\bundle\WEB API.styles.css
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\WEB API.csproj.CopyComplete
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\WEB API.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\refint\WEB API.dll
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\WEB API.pdb
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\WEB API.genruntimeconfig.cache
+D:\פרוייקט קופת חולים\HMO\DAL\WEB API\obj\Debug\net6.0\ref\WEB API.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\appsettings.Development.json
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\appsettings.json
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\WEB API.exe
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\WEB API.deps.json
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\WEB API.runtimeconfig.json
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\WEB API.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\WEB API.pdb
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\AutoMapper.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Azure.Core.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Azure.Identity.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\System.Memory.Data.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\BLL.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\DAL.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\DTO.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\BLL.pdb
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\DAL.pdb
+D:\פרוייקט קופת חולים\HMO\API\WEB API\bin\Debug\net6.0\DTO.pdb
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\WEB API.csproj.AssemblyReference.cache
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\WEB API.GeneratedMSBuildEditorConfig.editorconfig
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\WEB API.AssemblyInfoInputs.cache
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\WEB API.AssemblyInfo.cs
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\WEB API.csproj.CoreCompileInputs.cache
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\WEB API.MvcApplicationPartsAssemblyInfo.cs
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\WEB API.MvcApplicationPartsAssemblyInfo.cache
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\staticwebassets\msbuild.WEB API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\staticwebassets\msbuild.build.WEB API.props
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WEB API.props
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WEB API.props
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\staticwebassets.pack.json
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\staticwebassets.build.json
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\staticwebassets.development.json
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\scopedcss\bundle\WEB API.styles.css
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\WEB API.csproj.CopyComplete
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\WEB API.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\refint\WEB API.dll
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\WEB API.pdb
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\WEB API.genruntimeconfig.cache
+D:\פרוייקט קופת חולים\HMO\API\WEB API\obj\Debug\net6.0\ref\WEB API.dll
