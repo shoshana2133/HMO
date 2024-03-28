@@ -1,0 +1,22 @@
+<br>
+  <p>לפרטים נוספים עבור חבר קופת החולים לחץ על החבר</p>
+  <br>
+  <ul>
+    <li>
+        <p class="clumn bold">שם:</p>
+        <p class="clumn bold">ת.ז:</p>
+        <p class="clumn bold">חלה בקורונה?</p>
+        <p class="clumn bold">התחסנ/ה?</p>
+    </li>
+    <li *ngFor="let m of listMembers"  > 
+      <div class="details"  (click)="this.ms.Details(m)">
+        <p class="clumn">{{m.MbrFirstName}} {{m.MbrLastName}}</p>
+        <p class="clumn">{{m.MbrTz}}</p>
+        <p *ngIf="m.MbrPatient==true" class="clumn">V</p>
+        <p *ngIf="m.MbrPatient==false" class="clumn">X</p>
+        <p *ngIf="m.MbrVaccinted==true" class="clumn">V</p>
+        <p *ngIf="m.MbrVaccinted==false" class="clumn">X</p>
+      </div>
+    </li>
+  </ul>
+  

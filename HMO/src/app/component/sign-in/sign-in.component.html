@@ -1,0 +1,177 @@
+
+
+<div class="container">
+  <form (ngSubmit)="AddMember()" class="login" #f="ngForm">
+    <div class="row">
+      <div class="input-group fullname">
+        <input type="text" placeholder="שם פרטי" name="firstName" [(ngModel)]="this.ms.m.MbrFirstName"
+        class="inp" pattern="[ a-zA-Zא-ת]*" required #fn="ngModel">
+      
+      <div class="invalid" *ngIf="fn.invalid && (fn.touched || fn.dirty)"><br>
+        <p *ngIf="fn?.errors?.['required']" class="eror">שדה חובה</p>
+        <p *ngIf="fn?.errors?.['pattern']" class="eror">שם פרטי מכיל רק אותיות ורווחים</p>
+      </div></div>
+      <div class="input-group  fullname">
+        <input type="text" placeholder="שם משפחה"name="lastName" [(ngModel)]="this.ms.m.MbrLastName" 
+        pattern="[ a-zA-Zא-ת]*" required #ln="ngModel">
+     
+     
+    <div class="invalid" *ngIf="ln.invalid && (ln.touched || ln.dirty)"><br>
+      <p *ngIf="ln?.errors?.['required']" class="eror">שדה חובה</p>
+      <p *ngIf="ln?.errors?.['pattern']" class="eror">שם משפחה מכיל רק אותיות ורווחים</p>
+    </div> </div>
+      <div class="input-group  adress" >
+        <input type="text" (keyup)="IdValidator($any($event.target).value)" placeholder="מספר ת.ז" name="tz"
+        [(ngModel)]="this.ms.m.MbrTz" pattern="[0-9]{9}" required #tz="ngModel"/>
+        <div class="invalid" *ngIf="tz.invalid && (tz.touched || tz.dirty)||this.isValid==false "><br>
+          <p *ngIf="tz.errors?.['required']" class="eror">שדה חובה</p>
+          <p *ngIf="tz?.errors?.['pattern']" class="eror">מספר ת.ז מכיל 9 ספרות בלבד</p>
+          <p *ngIf="this.isValid==false" class="eror">מספר ת.ז לא תקין</p>
+        </div>
+      </div>
+      <div class="input-group input-group-icon adress">
+        <input type="tel" placeholder="מספר טלפון" name="telNumber" [(ngModel)]="this.ms.m.MbrTel"
+        pattern="[0-9]{9}" required #tl="ngModel"/>
+      
+      
+    <div class="invalid" *ngIf="tl.invalid && (tl.touched || tl.dirty)"><br>
+      <p *ngIf="tl?.errors?.['required']" class="eror">שדה חובה</p>
+      <p *ngIf="tl?.errors?.['pattern']" class="eror">פלאפון מכיל 9 ספרות</p>
+    </div></div>
+      <div class="input-group input-group-icon adress">
+        <input type="tel" placeholder="מספר נייד" name="phonNumber" [(ngModel)]="this.ms.m.MbrPhon"
+        pattern="[0-9]{10}" required #ph="ngModel"/>
+      
+      
+    <div class="invalid" *ngIf="ph.invalid && (ph.touched || ph.dirty)"><br>
+      <p *ngIf="ph?.errors?.['required']" class="eror">שדה חובה</p>
+      <p *ngIf="ph?.errors?.['pattern']" class="eror">פלאפון מכיל 10 ספרות</p>
+    </div>
+      </div>
+    </div>
+      <div class="row">
+      <label>כתובת:</label>
+      <div class="input-group adress" >
+        <input type="text" placeholder="עיר" name="city" [(ngModel)]="this.ms.m.MbrCity"
+        pattern="[ a-zA-Zא-ת]*" required #c="ngModel"/>
+    <div class="invalid" *ngIf="c.invalid && (c.touched || c.dirty)"><br>
+      <p *ngIf="c?.errors?.['required']" class="eror">שדה חובה</p>
+      <p *ngIf="c?.errors?.['pattern']" class="eror">שם עיר מכיל רק אותיות ורווחים</p>
+    </div></div>
+      <div class="input-group adress">
+        <input type="text" placeholder="רחוב" name="street" [(ngModel)]="this.ms.m.MbrStreet"
+        pattern="[ a-zA-Zא-ת]*" required #s="ngModel"/>
+    <div class="invalid" *ngIf="s.invalid && (s.touched || s.dirty)"><br>
+      <p *ngIf="s?.errors?.['required']" class="eror">שדה חובה</p>
+      <p *ngIf="s?.errors?.['pattern']" class="eror">שם רחוב מכיל רק אותיות ורווחים</p>
+    </div></div>
+      <div class="input-group  adress" >
+        <input type="number" placeholder="מספר רחוב" name="numStreet" [(ngModel)]="this.ms.m.MbrNumStreet"
+        pattern="[0-9]*" required #ns="ngModel">
+        <div class="invalid" *ngIf="ns.invalid && (ns.touched || ns.dirty)"><br>
+          <p *ngIf="ns?.errors?.['required']" class="eror">שדה חובה</p>
+          <p *ngIf="ns?.errors?.['pattern']" class="eror">מספר רחוב מכיל רק מספרים</p>
+        </div></div>
+    </div>
+    <div class="row">
+      <div class="col-half">
+        <label>תאריך לידה:</label>
+        <input type="date" (change)="this.Getdate(($any($event.target).value),'tz')"/>
+      </div>
+      
+    </div>
+    <div class="helfrow">
+      <br>
+      <h4>פרטי החלמה מקורונה</h4>
+      <label>האם חלית בקורונה?</label>
+      <select (change)="this.boolKorona()">
+        <option >לא</option>
+        <option>כן</option>
+              </select>
+    </div>
+              <div class="korona" *ngIf="this.isKorona==true">
+               
+                <div class="twoINrow" > <label>מועד תוצאה חיובית:</label>
+                  <br>
+                      <input type="date"  (change)="this.Getdate(($any($event.target).value),'cpp')"/>
+                  </div>
+                
+                <div class="twoINrow"><label>מועד החלמה:</label>
+                  <br>
+                      <input type="date"  (change)="this.Getdate(($any($event.target).value),'cpr')"/>
+                  </div>
+              </div>
+<div class="helfrow">
+      <h4>פרטי התחסנות</h4>
+      <label>האם התחסנת נגד קורונה?</label>
+      <select (change)="this.boolisVacc()">
+        <option >לא</option>
+        <option>כן</option>
+      </select></div>
+      <div class="korona" *ngIf="this.isVacc==true">
+       <div class="twoINrow"> <label>מועד קבלת החיסון:</label>
+        
+        <br>
+        <input type="date" (change)="this.Getdate(($any($event.target).value),'vm')" />
+
+        </div>
+        <div class="twoINrow" >
+        <label>בחר סוג חיסון:</label>
+        <br>
+        <select (change)="this.find(($any($event.target).value))">
+          <option *ngFor="let v of vacc">{{v.VcManufacturer}}</option>
+        </select>
+
+<br>
+   
+      </div>
+      <input type="button" value="הוסף מועד התחסנות" (click)="addVacc()">
+      <label>ניתן להוסיף עד 4 חיסונים לחבר, להוספת חיסון נוסף הכנס  תאריך וסוג חיסון ולחץ על הוסף מועד התחסנות </label>
+    </div>
+    <input type="submit" value="הוסף חבר"  [disabled]="!f.valid">
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

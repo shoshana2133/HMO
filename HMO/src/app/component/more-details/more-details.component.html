@@ -1,0 +1,9 @@
+    <div class="del">
+        <h3>{{ms.m.MbrFirstName}} {{ms.m.MbrLastName}}</h3>
+        <label>מספר ת.ז:</label> <p class="clumn">{{ms.m.MbrTz}}</p>
+        <label>כתובת:</label><p class="clumn">{{ms.m.MbrStreet}} {{ms.m.MbrNumStreet}} {{ms.m.MbrCity}}</p>
+        <label>תאריך לידה:</label><p>{{ms.m.MbrBirthDate |date:'dd/MM/yyyy'}}</p>
+        <label>טלפון:</label><p class="clumn">{{ms.m.MbrTel}}</p>
+        <label>נייד:</label><p class="clumn">{{ms.m.MbrPhon}}</p>
+        <button (click)="deleteMem()">הסר חבר</button>
+</div>

@@ -1,0 +1,28 @@
+/* div{
+    height: auto;
+    width: auto;
+} */
+.del {
+    padding: 30px;
+    background: #ecf0f3;
+        color: black;
+    width: 500px;
+    border-radius: 10%;
+    margin: auto;
+    line-height: 2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+
+}
+label{
+    font-weight: bold;
+}
+input{
+    margin: 20px;
+    background-color:#CC9C59;
+    border-radius: 15%;
+    color: #ecf0f3;
+    border: none;
+
+}
