@@ -29,6 +29,12 @@ namespace WEB_API.Controllers
         {
             return Ok(vcb.GetAllVaccintedMbrBll());
         }
-    
+        [HttpPost]
+        [Route("AddVaccMem")]
+        public ActionResult<int> AddVaccMem([FromBody] VaccinatedMbrDto vm)
+        {
+            return Ok(vcb.AddVaccintedMbrBll(vm));
+        }
+
     }
 }

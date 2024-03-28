@@ -22,13 +22,26 @@ namespace DAL.Models.function
         }
 
         public bool DeleteMemberDB(int id_mem)
-        {//צריך למחוק את כל החיסונים והמחלות של החבר 
+        {
             MemberHmo memberToDel = db.MemberHmos.FirstOrDefault(x => x.MbrCode == id_mem);
             if (memberToDel == null)
             {
                 return false;
             }
             db.MemberHmos.Remove(memberToDel);
+            //Deleting the member's corona data
+            if(memberToDel.MbrPatient) {
+            CoronaPatient cpToDel = db.CoronaPatients.FirstOrDefault(x => x.MbrCode == id_mem);
+            db.CoronaPatients.Remove(cpToDel); }
+            //Deleting all the member's vaccinations
+            if (memberToDel.MbrVaccinted)
+            {
+                List<VaccinatedMbr> vmToDel = db.VaccinatedMbrs.Where(x => x.MbrCode == id_mem).ToList();
+                foreach (VaccinatedMbr item in vmToDel)
+                {
+                    db.VaccinatedMbrs.Remove(item);
+                }
+            }
             db.SaveChanges();
             return true;
         }

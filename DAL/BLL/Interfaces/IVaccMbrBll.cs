@@ -12,8 +12,8 @@ namespace BLL.Interfaces
     {
         List<VaccinatedMbrDto> GetAllVaccintedMbrBll();
         bool DeleteVaccintedMbrBll(int id);
-        int AddVaccintedMbrBll(VaccinatedMbr vacc);
-        bool UpdateVaccintedMbrBll(VaccinatedMbr vacc);
+        int AddVaccintedMbrBll(VaccinatedMbrDto vacc);
+        bool UpdateVaccintedMbrBll(VaccinatedMbrDto vacc);
         public List<VaccinatedMbrDto> GetAllVaccinatedMbr(int id);
     }
 }

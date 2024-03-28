@@ -27,6 +27,8 @@ namespace DTO
             CreateMap<VaccinatedMbrDto, VaccinatedMbr>();
             CreateMap<Vaccination, VaccinationDTO>();
             CreateMap<VaccinationDTO, Vaccination>();
+            CreateMap<CoronaPatientDTO, CoronaPatient>();
+            CreateMap<CoronaPatient, CoronaPatientDTO>();
         }
     }
 }

@@ -18,29 +18,28 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //הגדרת הרשאת גישה
-builder.Services.AddCors(opotion => opotion.AddPolicy("AllowAll",//נתינת שם להרשאה
-    p => p.AllowAnyOrigin()//מאפשר כל מקור
-    .AllowAnyMethod()//כל מתודה - פונקציה
-    .AllowAnyHeader()));//וכל כותרת פונקציה
+builder.Services.AddCors(opotion => opotion.AddPolicy("AllowAll",
+    p => p.AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader()));
 
 builder.Services.AddAutoMapper(typeof(Program));
-//הגדרה למנהל התלויות מה להזריק כאשר הוא רואה שיש בנאי
-//המחכה לקבל מופע:
-//סוג המוזרק לDBContext:
+
 builder.Services.AddDbContext<HmoDbContext>(x => x.UseSqlServer("Server=.\\SQLEXPRESS;Database=HMO_DB;Trusted_Connection=True;"));
 
 //הזרקת תלויות של ממשקים ומחלקות 
 builder.Services.AddScoped(typeof(Imembers), typeof(MemberDB));
 builder.Services.AddScoped(typeof(IvaccintedMbrDB), typeof(VaccintedMbrDB));
 builder.Services.AddScoped(typeof(IVaccinationDB), typeof(VaccinationDB));
+builder.Services.AddScoped(typeof(ICoronaPatientDB), typeof(CoronaPatientDB));
+
 
 builder.Services.AddScoped(typeof(ImemberBLL), typeof(MemberBLL));
 builder.Services.AddScoped(typeof(IVaccMbrBll), typeof(VaccinatedMbrBll));
 builder.Services.AddScoped(typeof(IVaccinationBll), typeof(VaccinationBll));
+builder.Services.AddScoped(typeof(ICoronaPatientBLL), typeof(CoronaPatientBll));
 
 var app = builder.Build();
-
-//שימוש בהרשאת גישה 
 app.UseCors("AllowAll");
 
 

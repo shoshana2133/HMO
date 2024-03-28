@@ -20,7 +20,7 @@ namespace DAL.function
         {
             db.VaccinatedMbrs.Add(vacc);
             db.SaveChanges();
-            return vacc.MbrCode;
+            return vacc.VmCode;
         }
 
         public bool DeleteVaccintedMbrDB(int id)

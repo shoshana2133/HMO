@@ -30,9 +30,9 @@ namespace BLL.function
             m = config.CreateMapper();
            
         }
-        public int AddVaccintedMbrBll(VaccinatedMbr vacc)
+        public int AddVaccintedMbrBll(VaccinatedMbrDto vacc)
         {
-            return vaccMbrDb.AddVaccintedMbrDB(vacc);
+            return vaccMbrDb.AddVaccintedMbrDB(m.Map<VaccinatedMbrDto, VaccinatedMbr>( vacc));
         }
 
         public bool DeleteVaccintedMbrBll(int id)
@@ -45,9 +45,9 @@ namespace BLL.function
             return m.Map<List<VaccinatedMbr>,List<VaccinatedMbrDto>>( vaccMbrDb.GetAllVaccintedMbrDB());
 
         }
-        public bool UpdateVaccintedMbrBll(VaccinatedMbr vacc)
+        public bool UpdateVaccintedMbrBll(VaccinatedMbrDto vacc)
         {
-            return vaccMbrDb.UpdateVaccintedMbrDB(vacc);
+            return vaccMbrDb.UpdateVaccintedMbrDB(m.Map < VaccinatedMbrDto, VaccinatedMbr > (vacc));
 
         }
         public List<VaccinatedMbrDto> GetAllVaccinatedMbr(int id)
